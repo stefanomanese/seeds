@@ -19,7 +19,7 @@ const program = new Command();
 program
 	.name("sd")
 	.description("Seeds — git-native task tracker for agent workflows")
-	.version("0.1.0");
+	.version("0.1.1");
 
 registerInitCommand(program);
 registerCreateCommand(program);

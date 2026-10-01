@@ -1,6 +1,6 @@
 {
   "name": "@two22/seeds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Git-native task tracker for agent workflows — structured issues, plan gates, and session context injection",
   "type": "module",
   "bin": {
