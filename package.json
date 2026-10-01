@@ -1,0 +1,36 @@
+{
+  "name": "@two22/seeds",
+  "version": "0.1.0",
+  "description": "Git-native task tracker for agent workflows — structured issues, plan gates, and session context injection",
+  "type": "module",
+  "bin": {
+    "seeds": "src/cli.ts",
+    "sd": "src/cli.ts"
+  },
+  "main": "src/cli.ts",
+  "files": ["src"],
+  "scripts": {
+    "test": "bun test",
+    "lint": "biome check --error-on-warnings src/",
+    "lint:fix": "biome check --write src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": ["ai", "agents", "issues", "tasks", "cli", "developer-tools"],
+  "author": "Stefano Manese (Two22)",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.6",
+    "@types/bun": "latest",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^6.0.3"
+  }
+}
